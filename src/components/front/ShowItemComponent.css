@@ -1,0 +1,40 @@
+.product-list {
+	flex: 2;
+	display: flex;
+	gap: 20px;
+	padding-bottom: 5%;
+}
+
+.product 
+{
+	background-color: rgba(128, 128, 128, 0.141);
+	padding: 20px 60px;
+	text-align: center;
+	transition: transform 0.2s ease-in-out;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.product:hover {
+	transform: translateY(-5px) scale(1.03);
+}
+
+.product img {
+	width: 300px;
+	height: 180px;
+	margin-bottom: 10px;
+}
+
+.product h2 {
+	font-size: 1.5rem;
+	margin: 10px 0;
+	color: #ffffff;
+}
+
+.product p {
+	font-size: 1.1rem;
+	color: #ea5a5a;
+	margin: 5px 0;
+}
